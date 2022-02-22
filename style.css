@@ -4,6 +4,7 @@
     text-align: justify;
 }
 
+
 .header{
  background-color: black;
  position: fixed;
@@ -16,3 +17,98 @@
     font-family: Arial, Helvetica, sans-serif;
     color: white;
    }
+
+
+/* Contact Us KJ CSS starts*/
+
+.contact_fw_banner {
+width: 100%;
+height: 350px;
+background-size: cover;
+position: relative;
+}
+  
+.contact_img {
+background-image: url('./Images/staff.jpg');
+background-size: cover;
+background-position:bottom;
+background-attachment: fixed;
+}
+
+#contact_title{
+    font-size: 3vw;
+}
+
+
+.block_colour:hover div{
+    color: tomato;
+    transition: 1s;
+}
+
+.contact_text{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: rgb(230, 227, 227);
+    text-align: center;
+    margin: 40px auto;
+    width: clamp(500px, 60%, 800px);
+    margin: 40px auto;
+    
+}
+
+.contact_div{
+    background-color:#3b3b3b;
+}
+
+.contact_flex_cont{
+    display: flex;
+    justify-content: center;
+}
+
+.bold{
+    font-weight: 600;
+}
+
+/* Contact Us KJ CSS end */
+
+/* service CSS start */
+
+#service{
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 3%;
+    font-family: 'Audiowide', cursive;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+#header-1{
+    font-size: 3vw;
+}
+.box-container{
+    display: flex;
+    width: 80%;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.box{
+    width:clamp(500px, 40%, 600px);
+    text-align: center;
+    padding: 1em;
+    font-family: 'Montserrat', sans-serif;
+    font-size: clamp(1rem, 5vw, 1.5em);
+}
+.box h1{
+    font-size: clamp(1.5em, 5vw, 2em);
+}
+
+.box:hover h1{
+    color: tomato;
+    transition: 1s;
+}
+.hidden{
+    display: none;
+}
+/* service CSS end */
+
