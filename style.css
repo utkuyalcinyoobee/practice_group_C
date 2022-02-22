@@ -15,17 +15,22 @@
     align-items: center;
 }
 #header-1{
-    font-size: 2vw;
+    font-size: 3vw;
 }
 .box-container{
     display: flex;
     width: 80%;
     flex-wrap: wrap;
-    justify-content: center;
+    justify-content: space-around;
 }
 .box{
-    width: 40%;
+    width:clamp(500px, 40%, 600px);
     text-align: center;
     padding: 1em;
     font-family: 'Montserrat', sans-serif;
+    font-size: clamp(1rem, 5vw, 1.5em);
 }
+.box h1{
+    font-size: clamp(1.5em, 5vw, 2em);
+}
+
