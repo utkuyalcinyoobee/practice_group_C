@@ -6,6 +6,20 @@
 }
 
 
+.header{
+ background-color: black;
+ position: fixed;
+ width: 100%;
+ height: 50px;
+}
+
+.nav-item{
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+   }
+
+
 /* Contact Us KJ CSS starts*/
 
 .contact_fw_banner {
@@ -98,6 +112,10 @@ background-attachment: fixed;
     display: none;
 }
 /* service CSS end */
+<<<<<<< HEAD
 =======
 }
 >>>>>>> parent of dbbebc0 (edit)
+=======
+
+>>>>>>> 9463f006e5e4000794aa8f684d9fd27d40e117f1
