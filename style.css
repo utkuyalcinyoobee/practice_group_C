@@ -8,10 +8,18 @@
     color: white;
     text-align: center;
     padding: 3%;
+    font-family: 'Audiowide', cursive;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+#header-1{
+    font-size: 2vw;
 }
 .box-container{
     display: flex;
-    width: 100%;
+    width: 80%;
     flex-wrap: wrap;
     justify-content: center;
 }
@@ -19,4 +27,5 @@
     width: 40%;
     text-align: center;
     padding: 1em;
+    font-family: 'Montserrat', sans-serif;
 }
