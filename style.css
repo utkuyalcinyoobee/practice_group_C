@@ -6,4 +6,17 @@
 #service{
     background-color: black;
     color: white;
+    text-align: center;
+    padding: 3%;
+}
+.box-container{
+    display: flex;
+    width: 100%;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.box{
+    width: 40%;
+    text-align: center;
+    padding: 1em;
 }
