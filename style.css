@@ -54,6 +54,46 @@ background-attachment: fixed;
     font-weight: 600;
 }
 
-
 /* Contact Us KJ CSS end */
 
+/* service CSS start */
+
+#service{
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 3%;
+    font-family: 'Audiowide', cursive;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+#header-1{
+    font-size: 3vw;
+}
+.box-container{
+    display: flex;
+    width: 80%;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.box{
+    width:clamp(500px, 40%, 600px);
+    text-align: center;
+    padding: 1em;
+    font-family: 'Montserrat', sans-serif;
+    font-size: clamp(1rem, 5vw, 1.5em);
+}
+.box h1{
+    font-size: clamp(1.5em, 5vw, 2em);
+}
+
+.box:hover h1{
+    color: tomato;
+    transition: 1s;
+}
+.hidden{
+    display: none;
+}
+/* service CSS end */
