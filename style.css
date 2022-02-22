@@ -7,21 +7,35 @@
 
 /* Contact Us KJ CSS starts*/
 
-.contact_img{
-    height: 350px;
+.contact_fw_banner {
+width: 100%;
+height: 350px;
+background-size: cover;
+position: relative;
+}
+  
+.contact_img {
+background-image: url('./Images/Hero1.png');
+background-size: cover;
+background-position:bottom;
+background-attachment: fixed;
 }
 
 .contact_text{
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     color: rgb(218, 216, 214);
+    text-align: center;
+    margin: 40px auto;
 }
 
 .contact_div{
     background-color:#4b4d4d;
 }
 
-.contact_img_cont{
+.contact_flex_cont{
     display: flex;
+    justify-content: center;
 }
+
 
 /* Contact Us KJ CSS end */
