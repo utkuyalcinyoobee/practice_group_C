@@ -2,6 +2,7 @@
     width: clamp(500px, 60%, 800px);
     margin: 40px auto;
     text-align: justify;
+<<<<<<< HEAD
 }
 
 
@@ -97,3 +98,6 @@ background-attachment: fixed;
     display: none;
 }
 /* service CSS end */
+=======
+}
+>>>>>>> parent of dbbebc0 (edit)
