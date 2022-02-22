@@ -3,6 +3,61 @@
     margin: 40px auto;
     text-align: justify;
 }
+
+
+/* Contact Us KJ CSS starts*/
+
+.contact_fw_banner {
+width: 100%;
+height: 350px;
+background-size: cover;
+position: relative;
+}
+  
+.contact_img {
+background-image: url('./Images/staff.jpg');
+background-size: cover;
+background-position:bottom;
+background-attachment: fixed;
+}
+
+#contact_title{
+    font-size: 3vw;
+}
+
+
+.block_colour:hover div{
+    color: tomato;
+    transition: 1s;
+}
+
+.contact_text{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: rgb(230, 227, 227);
+    text-align: center;
+    margin: 40px auto;
+    width: clamp(500px, 60%, 800px);
+    margin: 40px auto;
+    
+}
+
+.contact_div{
+    background-color:#3b3b3b;
+}
+
+.contact_flex_cont{
+    display: flex;
+    justify-content: center;
+}
+
+.bold{
+    font-weight: 600;
+}
+
+/* Contact Us KJ CSS end */
+
+/* service CSS start */
+
 #service{
     background-color: black;
     color: white;
@@ -41,3 +96,4 @@
 .hidden{
     display: none;
 }
+/* service CSS end */
