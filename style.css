@@ -34,3 +34,10 @@
     font-size: clamp(1.5em, 5vw, 2em);
 }
 
+.box:hover h1{
+    color: tomato;
+    transition: 1s;
+}
+.hidden{
+    display: none;
+}
