@@ -7,6 +7,18 @@
 
 /* Contact Us KJ CSS starts*/
 
+.contact_img{
+    height: 350px;
+}
+
+.contact_text{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: rgb(218, 216, 214);
+}
+
+.contact_div{
+    background-color:#4b4d4d;
+}
 
 .contact_img_cont{
     display: flex;
