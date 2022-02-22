@@ -3,3 +3,13 @@
     margin: 40px auto;
     text-align: justify;
 }
+
+
+/* Contact Us KJ CSS starts*/
+
+
+.contact_img_cont{
+    display: flex;
+}
+
+/* Contact Us KJ CSS end */
