@@ -25,13 +25,15 @@ background-attachment: fixed;
     font-size: 3vw;
 }
 
-.block_colour{
-    background-color: #ff8484;
+
+.block_colour:hover div{
+    color: tomato;
+    transition: 1s;
 }
 
 .contact_text{
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    color: rgb(218, 216, 214);
+    color: rgb(230, 227, 227);
     text-align: center;
     margin: 40px auto;
     width: clamp(500px, 60%, 800px);
@@ -40,7 +42,7 @@ background-attachment: fixed;
 }
 
 .contact_div{
-    background-color:#616060;
+    background-color:#3b3b3b;
 }
 
 .contact_flex_cont{
@@ -53,8 +55,5 @@ background-attachment: fixed;
 }
 
 
-.black{
-    color: #616060;
-}
 /* Contact Us KJ CSS end */
 
